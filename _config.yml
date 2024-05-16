@@ -1,0 +1,24 @@
+
+### 2. `_config.yml`
+
+Este archivo es la configuración principal para un sitio Jekyll utilizando el tema Minima.
+
+```yaml
+title: Mi Sitio Jekyll con Minima
+description: >- 
+  Este es un sitio web de ejemplo utilizando Jekyll y el tema Minima.
+baseurl: "" # el subpath del repositorio, por ejemplo: /blog
+url: "https://tu-usuario.github.io" # la URL base de tu sitio
+
+# Configuración del tema
+theme: minima
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Enlaces de navegación
+nav:
+  - home: /
+  - about: /about
+  - contact: /contact
